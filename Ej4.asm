@@ -90,7 +90,14 @@ loopk:
     return
     
 tiempo2:
-    MOVLW d'49'
+    MOVLW d'46'
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
     nop
     nop
     nop
@@ -111,7 +118,19 @@ tiempo2:
     nop
     MOVWF i
 loopj2:
-    MOVLW d'56'
+    MOVLW d'73'
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
     nop
     nop
     nop
@@ -119,10 +138,7 @@ loopj2:
     nop
     MOVWF j
 loopk2:
-    MOVLW d'51'
-    nop
-    nop
-    nop
+    MOVLW d'52'
     nop
     nop
     MOVWF k
