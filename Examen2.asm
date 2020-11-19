@@ -134,7 +134,7 @@ INICIO
     MOVLW '2'
     MOVWF PORTD
     CALL ejec
-    MOVLW '4'
+    MOVLW '5'
     MOVWF PORTD
     CALL ejec
     MOVLW '0'
@@ -479,7 +479,7 @@ intro
     DECFSZ r5
     GOTO equiv
     
-    MOVLW '4'
+    MOVLW '5'
     XORWF r6, 1
     INCF r6, 1
     DECFSZ r6
@@ -491,7 +491,7 @@ intro
     DECFSZ r7
     GOTO equiv
     GOTO vale
-
+    
     BSF PORTA, 6
     CALL tiempo3
     RETURN
